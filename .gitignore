@@ -1,0 +1,12 @@
+# 忽略编译文件夹
+build/
+bin/
+.vscode/
+.idea/
+
+# 忽略编译产生的临时文件
+*.o
+*.obj
+*.exe
+*.dll
+*.dylib
