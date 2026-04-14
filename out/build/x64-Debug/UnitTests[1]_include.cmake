@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/hello/Desktop/BilliardProjet/out/build/x64-Debug/UnitTests[1]_tests.cmake")
+  include("C:/Users/hello/Desktop/BilliardProjet/out/build/x64-Debug/UnitTests[1]_tests.cmake")
+else()
+  add_test(UnitTests_NOT_BUILT UnitTests_NOT_BUILT)
+endif()
